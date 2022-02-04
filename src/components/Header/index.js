@@ -15,13 +15,13 @@ const Header = () => {
       </Home>
       <Links>
         <LinkItem>
-          <Link to="about" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>About</Link>
+          <Link to="about" activeClass="active" spy={true} smooth={true} offset={-80} duration={500}>About</Link>
         </LinkItem>
         <LinkItem>
-          <Link to="projects" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link>
+          <Link to="projects" activeClass="active" spy={true} smooth={true} offset={-80} duration={500}>Projects</Link>
         </LinkItem>
         <LinkItem>
-          <Link to="contact" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>Contact</Link>
+          <Link to="contact" activeClass="active" spy={true} smooth={true} offset={-80} duration={500}>Contact</Link>
         </LinkItem>
       </Links>
       <Curriculum />
