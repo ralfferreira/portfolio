@@ -1,0 +1,125 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 0 80px;
+  background-color: transparent;
+  z-index: 999;
+}
+
+.blackBackground {
+  background-color: rgba(0, 0, 0, 0.74)
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.li {
+  margin: 16px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  margin: 0;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #f81ce5, #b20cff, #00b5ff, #00ff88, #f8e71c, #f81ce5);
+  background-size: 1200% 1200%;
+  background-position: 0% 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: vercel-logo-animation 10s ease-in-out infinite;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@keyframes vercel-logo-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.hamburger {
+  display: none;
+}
+
+/* Estilos para telas menores que 600px de largura */
+@media only screen and (max-width: 767px) {
+  .header {
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 80px;
+  }
+
+  .hamburger {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 9999;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .nav {
+    position: fixed;
+    top: 56px;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: left 0.3s ease-in-out;
+    z-index: 998;
+  }
+
+  .open {
+    left: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .navOpen {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50%;
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,115 @@
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.contactEmail {
+    font-size: 1.5rem;
+    font-weight: 500;
+    height: 100%;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 48px;
+    text-decoration: underline;
+}
+
+.contactSocial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 48px;
+}
+
+.iconSocial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.contactLocation {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 48px;
+    height: 100%;
+    width: 100%;
+}
+
+.contactLocation span {
+    background-image: linear-gradient(45deg, #f81ce5, #b20cff, #00b5ff, #00ff88, #f8e71c, #f81ce5);
+    background-size: 1200% 1200%;
+    background-position: 0% 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: vercel-logo-animation 10s ease-in-out infinite;
+    margin-left: 7px;
+}
+
+@keyframes vercel-logo-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .contactContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .contactEmail {
+        font-size: 1.5rem;
+        font-weight: 500;
+        height: 100%;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        margin-bottom: 48px;
+        text-decoration: underline;
+    }
+    
+    .contactSocial {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 70%;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .iconSocial {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 32px;
+    }
+    
+    .contactLocation {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 48px;
+        height: 100%;
+        width: 100%;
+    }    
+}
