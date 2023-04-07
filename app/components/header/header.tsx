@@ -18,6 +18,14 @@ const Header = (): JSX.Element => {
     const targetElement = targetId ? document.querySelector(targetId) : null;
     if (targetElement) {
       targetElement.scrollIntoView({ behavior: "smooth" });
+      setIsOpen(!isOpen);
+    }
+  };
+
+  const handleLogoAndHomeClick = (): void => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    if (isOpen) {
+      setIsOpen(false);
     }
   };
 
@@ -44,7 +52,7 @@ const Header = (): JSX.Element => {
         hasBackground ? styles.blackBackground : ""
       } ${isOpen ? styles.open : ""}`}
     >
-      <Link href="/" passHref className={styles.logo} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+      <Link href="/" passHref className={styles.logo} onClick={handleLogoAndHomeClick}>
         ralf.
       </Link>
 
@@ -63,6 +71,11 @@ const Header = (): JSX.Element => {
         } ${styles.navOpen}`}
       >
         <ul className={styles.ul}>
+          <li className={styles.li}>
+            <Link href="/" passHref className={styles.link} onClick={handleLogoAndHomeClick}>
+                Home
+            </Link>
+          </li>
           <li className={styles.li}>
             <Link href="#about" passHref className={styles.link} onClick={handleLinkClick}>
                 About
