@@ -62,7 +62,7 @@
     position: absolute;
     top: 1rem;
     left: 1rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: bold;
     opacity: 0;
   }
@@ -71,7 +71,7 @@
     position: absolute;
     bottom: 1rem;
     left: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     opacity: 0;
   }
   

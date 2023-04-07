@@ -105,7 +105,7 @@
   }
 
   .contact p:nth-child(2) {
-    width: 50%;
+    width: 80%;
     font-size: 1.4rem;
     line-height: 1.75rem;
   }
@@ -165,7 +165,7 @@
     }
 
     .footer {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
     
     .projects {
@@ -195,7 +195,7 @@
     }
   
     .contact {
-      height: 70vh;
+      height: 100vh;
       padding: 80px 0px 0px 20px;
       color: #fff;
       display: flex;
