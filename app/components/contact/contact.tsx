@@ -77,6 +77,26 @@ const Contact = () => {
     });
   };
 
+  const contactLinkedinRef = useRef<HTMLDivElement>(null);
+
+  const handleMouseLinkedinEnter = () => {
+    anime({
+      targets: contactLinkedinRef.current,
+      translateY: -10,
+      color: '#7EC8E3',
+      easing: 'easeOutExpo'
+    });
+  };
+
+  const handleMouseLinkedinOut = () => {
+    anime({
+      targets: contactLinkedinRef.current,
+      translateY: 0,
+      color: '#fff',
+      easing: 'easeOutExpo'
+    });
+  };
+
   return (
     <div className={styles.contactContainer}>
       <div className={styles.contactLocation}>
@@ -118,6 +138,17 @@ const Contact = () => {
         onMouseEnter={handleMouseInstaEnter}
         onMouseLeave={handleMouseInstaOut}>
             <h2>Instagram</h2>
+        </div>
+        </Link>
+        <Link 
+        href={"https://www.linkedin.com/in/ralfferreira"}
+        target="_blank"
+        rel="noopener noreferrer" >
+        <div className={styles.iconSocial}
+        ref={contactLinkedinRef}
+        onMouseEnter={handleMouseLinkedinEnter}
+        onMouseLeave={handleMouseLinkedinOut}>
+            <h2>Linkedin</h2>
         </div>
         </Link>
       </div>
