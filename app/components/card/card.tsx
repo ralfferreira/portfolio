@@ -40,7 +40,7 @@ const Card: React.FC<CardProps> = ({ title, description, languages, link, backgr
 
   return (
     <a href={link} className={styles.cardLink} target="_blank" rel="noopener noreferrer">
-    <div className={styles.card} style={{ backgroundImage: `url(/assets/projects/${backgroundImage})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", }}>
+    <div className={styles.card} style={{ backgroundImage: `url(/assets/projects/${backgroundImage})`, boxShadow: "inset 0px 0px 400px 110px rgba(0, 0, 0, .7)",backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", }}>
       <div className={styles.cardTitle} ref={titleRef}>
         {title}
       </div>

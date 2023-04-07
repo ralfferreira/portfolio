@@ -13,8 +13,7 @@
     display: flex;
     text-align: left;
     align-items: center;
-    margin-bottom: 48px;
-    text-decoration: underline;
+    margin-bottom: 48px
 }
 
 .contactSocial {
@@ -22,7 +21,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 30%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 48px;
 }
@@ -81,15 +80,14 @@
         text-align: left;
         align-items: center;
         margin-bottom: 48px;
-        text-decoration: underline;
     }
-    
+
     .contactSocial {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         width: 70%;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 500;
     }
     
