@@ -28,8 +28,16 @@
     margin-bottom: 0.5rem;
   }
 
+  .aboutBackground {
+    background-image: url("../public/assets/img/wpp2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 400px 350px rgba(0, 0, 0, .7);
+  }
+
   .aboutTitle {
-    background-color: #252525;
+    background-color: transparent;
     padding: 80px 80px 0 80px;
     color: #fff;
   }
@@ -38,10 +46,10 @@
     font-size: 1.7rem;
     width: 100%;
   }
-
+  
   .about {
     height: 100vh;
-    background-color: #252525;
+    background-color: transparent;
     padding: 80px 80px 0 80px;
     color: #fff;
     display: flex;
@@ -66,7 +74,7 @@
   .projects {
     display: grid;
     height: 100%;
-    background-color: #1F1F1F;
+    background-color: #161616;
     padding: 80px 80px 0 80px;
     color: #fff;
     grid-template-columns: repeat(2, 1fr);
@@ -85,7 +93,7 @@
   }
 
   .contactTitle {
-    background-color: #252525;
+    background-color: #1F1F1F;
     padding: 80px 80px 0 80px;
     color: #fff;
   }
@@ -97,7 +105,7 @@
 
   .contact {
     height: 70vh;
-    background-color: #252525;
+    background-color: #1F1F1F;
     padding: 80px 80px 0 80px;
     color: #fff;
     display: flex;

@@ -103,10 +103,11 @@
         height: 100%;
         margin-bottom: 32px;
         margin-top: 16px;
+        align-items: center;
     }
 
     .iconSocial img {
-        margin: 6px 10px 0px 0px;
+        margin: 0px 10px 0px 0px;
     }
     
     .contactLocation {

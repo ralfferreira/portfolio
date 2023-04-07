@@ -53,18 +53,20 @@ export default function Home() {
       </div>
 
       <main>
-        <div className={styles.aboutTitle} id="about">
-          <h2>About me</h2>
-        </div>
-        <section className={styles.about}>
-          <div className={styles.aboutMe}>
-            <p>Hello, my name is Ralf, I'm 18 years old and I'm a software developer passionate about technology. Currently, I'm studying Computer Engineering at the Federal University of Paraíba and have already completed the technical course in Systems Analysis and Development at ETEC.</p>
-            <p>I have experience in development in several programming languages, including Python, C++ and Javascript. I love learning new technologies and I'm always looking to improve my skills.</p>
-            <p>Additionally, I'm highly motivated and committed to my projects, always striving to deliver the best possible results. I enjoy working in a team and I am open to feedback to improve my performance.</p>
-            <p>Feel free to get in touch, it would be a pleasure to know you.</p>
+        <div className={styles.aboutBackground}>
+          <div className={styles.aboutTitle} id="about">
+            <h2>About me</h2>
           </div>
-          <ProgrammingLanguages />
-        </section>
+          <section className={styles.about}>
+            <div className={styles.aboutMe}>
+              <p>Hello, my name is Ralf, I'm 18 years old and I'm a software developer passionate about technology. Currently, I'm studying Computer Engineering at the Federal University of Paraíba and have already completed the technical course in Systems Analysis and Development at ETEC.</p>
+              <p>I have experience in development in several programming languages, including Python, C++ and Javascript. I love learning new technologies and I'm always looking to improve my skills.</p>
+              <p>Additionally, I'm highly motivated and committed to my projects, always striving to deliver the best possible results. I enjoy working in a team and I am open to feedback to improve my performance.</p>
+              <p>Feel free to get in touch, it would be a pleasure to know you.</p>
+            </div>
+            <ProgrammingLanguages />
+          </section>
+        </div>
 
         <section className={styles.projects} id="projects">
           <h2>My Projects</h2>
