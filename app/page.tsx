@@ -10,28 +10,28 @@ const projects = [
     description: 'IAbstract is an NLP (Natural Language Processing) project, developed by UFPB - TAIL, which allows you to generate an abstract and title for your academic article summaries.',
     languages: ['Python', 'Transformers', 'PyTorch'],
     link: 'https://github.com/ralfferreira/iabstract',
-    backgroundImage: 'iabstract.png',
+    backgroundImage: 'iabstract.webp',
   },
   {
     title: 'ETEC Horácio Blog',
     description: '"ETEC Horácio" is one of the best public schools in São Paulo, and their role is to offer free and quality education to everyone. This project consists of their blog and website.',
     languages: ['PHP', 'Wordpress', 'JavaScript'],
     link: 'https://github.com/ralfferreira/etec-horacio',
-    backgroundImage: 'etechoracio.jpg',
+    backgroundImage: 'etechoracio.webp',
   },
   {
     title: 'Hexperience',
     description: '"Hexperience" is an app with the purpose of providing experiences, which are activities guided by a host. This project was presented as a final paper at ETEC Professor Horácio Augusto da Silveira in 2021."',
     languages: ['TypeScript', 'React Native', 'MySQL', 'MongoDB', 'Redis'],
     link: 'https://github.com/ralfferreira/hexperience-api',
-    backgroundImage: 'hexperience.jpeg',
+    backgroundImage: 'hexperience.webp',
   },
   {
     title: 'Gender representation in games',
     description: 'The article discusses the common practice of playing video games and its evolution from simple entertainment to incorporating culture and influencing people. However, there is a significant gender gap in the representation of characters in games and in the development team, with men being more predominant. The work aims to investigate this discrepancy in the video game industry.',
     languages: ['Python', 'Pandas', 'Seaborn', 'NumPy', 'Matplotlib'],
     link: 'https://github.com/ralfferreira/representacao-genero-jogos',
-    backgroundImage: 'gender.jpg',
+    backgroundImage: 'gender.webp',
   },
 ];
 

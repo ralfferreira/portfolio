@@ -3,7 +3,7 @@
     height: 100vh;
     width: 100%;
     background-color: #1B1C1E;
-    background-image: url("../public/assets/img/wallpaper.jpg");
+    background-image: url("../public/assets/img/wallpaper.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@
   }
 
   .aboutBackground {
-    background-image: url("../public/assets/img/wpp2.jpg");
+    background-image: url("../public/assets/img/wpp2.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

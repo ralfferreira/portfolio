@@ -127,7 +127,7 @@ const Contact = () => {
         ref={contactGitRef}
         onMouseEnter={handleMouseGitEnter}
         onMouseLeave={handleMouseGitOut}>
-            <Image src="/assets/img/icons8-github-48.png" alt="Github" width={24} height={24} />
+            <Image src="/assets/img/icons8-github-48.webp" alt="Github" width={24} height={24} />
             <h2>Github</h2>
         </div>
         </Link>
@@ -139,7 +139,7 @@ const Contact = () => {
         ref={contactInstaRef}
         onMouseEnter={handleMouseInstaEnter}
         onMouseLeave={handleMouseInstaOut}>
-            <Image src="/assets/img/icons8-instagram-48.png" alt="Instagram" width={24} height={24} />
+            <Image src="/assets/img/icons8-instagram-48.webp" alt="Instagram" width={24} height={24} />
             <h2>Instagram</h2>
         </div>
         </Link>
@@ -151,7 +151,7 @@ const Contact = () => {
         ref={contactLinkedinRef}
         onMouseEnter={handleMouseLinkedinEnter}
         onMouseLeave={handleMouseLinkedinOut}>
-            <Image src="/assets/img/icons8-linkedin-2-48.png" alt="Linkedin" width={24} height={24} />
+            <Image src="/assets/img/icons8-linkedin-2-48.webp" alt="Linkedin" width={24} height={24} />
             <h2>Linkedin</h2>
         </div>
         </Link>
