@@ -5,7 +5,7 @@ const ProgrammingLanguages = () => {
   return (
     <div className={styles.profile}>
       <Image
-        src="/assets/img/me500.jpg"
+        src="/assets/img/me500.webp"
         alt="Minha foto de perfil"
         width={300}
         height={300}

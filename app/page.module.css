@@ -2,11 +2,8 @@
     position: relative;
     height: 100vh;
     width: 100%;
-    background-color: #1B1C1E;
-    background-image: url("../public/assets/img/wallpaper.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: rgb(27,28,30);
+    background: linear-gradient(0deg, rgba(27,28,30,1) 0%, rgba(32,8,35,1) 100%); 
     top: 0;
     left: 0;
   }
@@ -29,11 +26,8 @@
   }
 
   .aboutBackground {
-    background-image: url("../public/assets/img/wpp2.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    box-shadow: inset 0px 0px 400px 350px rgba(0, 0, 0, .7);
+    background-color: #1B1C1E;
+
   }
 
   .aboutTitle {

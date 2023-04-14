@@ -44,6 +44,7 @@
   background-image: linear-gradient(45deg, #f81ce5, #b20cff, #00b5ff, #00ff88, #f8e71c, #f81ce5);
   background-size: 1200% 1200%;
   background-position: 0% 50%;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: vercel-logo-animation 10s ease-in-out infinite;

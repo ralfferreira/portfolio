@@ -35,7 +35,6 @@ const projects = [
   },
 ];
 
-
 export default function Home() {
   return (
     <>
