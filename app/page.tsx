@@ -84,18 +84,18 @@ export default function Home() {
         Hi, I'm Ralf
       </h1>
 
-      <div className="flex flex-col sm:flex-row space-x-4 sm:items-center mt-8">
+      <div className="flex flex-col sm:flex-row m-0 sm:space-x-4 sm:items-center mt-8">
         <Avatar>
           <AvatarImage src="https://github.com/ralfferreira.png" />
           <AvatarFallback>Ralf</AvatarFallback>
         </Avatar>
-        <p className="leading-7 text-xl">
+        <p className="leading-7 text-xl mt-4 sm:mt-0">
           I am a computer engineering student focused on <span className="font-bold">software engineering</span> and <span className="font-bold">artificial intelligence</span>.
         </p>
       </div>
 
       
-      <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0" id="education">
+      <h2 className="mt-16 sm:mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0" id="education">
         Education
       </h2>
       
