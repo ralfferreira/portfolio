@@ -84,7 +84,7 @@ export default function Home() {
         Hi, I'm Ralf
       </h1>
 
-      <div className="flex flex-row space-x-4 items-center mt-8">
+      <div className="flex flex-col sm:flex-row space-x-4 items-center mt-8">
         <Avatar>
           <AvatarImage src="https://github.com/ralfferreira.png" />
           <AvatarFallback>Ralf</AvatarFallback>
